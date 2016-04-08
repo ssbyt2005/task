@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background:lightgrey;
+}
+/*头部代码*/
+header{
+    height: 60px;
+    background-color: black;
+    position: relative;
+}
+
+header h1 img{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+header ul{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+header ul li{
+    width: 60px;
+    text-align: center;
+    display: block;
+    float: left;
+    padding:20px 10px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 12px;color: white;
+}
+header ul li:hover {
+    border-bottom: 1px solid red;
+    background: blue;
+    border-radius: 5px;
+}
+
+
+/*主体部分代码*/
+#aa{
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border: 2px solid darkgray;
+}
+#bb{
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border: 2px solid darkgray;
+}
+#cc{
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border: 2px solid darkgray;
+}
+#dd{
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border: 2px solid darkgray;
+}
+#ee{
+    margin: 30px 30px 20px 20px;
+    background: white;
+    padding: 20px;
+    border: 2px solid darkgray;
+}
+#gg{
+    background: black;
+    height: 70px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+p{
+    text-indent: 2em;
+}
+h3{
+    font-size: 14px;color: gray;
+}
+span{
+    font-size: 12px;color: gray;
+}
+.oo{
+    list-style: none;
+    padding-left: 20px;
+}
+.four{
+    border: 1px solid gray;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 20px;
+}
+.four img{
+    width: 200px;
+    height: 200px;
+}
+.pp{
+    padding-left: 40px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;/*设置表格的边框被合并为一个单一的边框*/
+}
+th{
+    background: black;
+    font-size: 15px;color: white;
+    text-align: left;
+}
+.ii{
+    background: lightgray;
+}
+.ww{
+    height:40px;
+    line-height:40px;
+    padding-left:10px;
+    border-left:3px solid #ccc;
+}
+
+.hh{
+ font-size: 14px;
+    margin: 15px 0;
+}
+.tip{
+    float: left;
+    text-align: right;
+    width: 35%;
+    padding-right: 15px;
+}
+.hh p{
+    margin-left: 34%;
+    font-size: 15px;
+    color: #aaa;
+}
+
+.tops{
+    font-size: 14px;
+    margin: 15px 0;
+}
+.tops span{
+    float: left;
+    width: 35%;
+    padding-right: 15px;
+    text-align: right;
+    font-size: 15px;color: black;
+}
+.sub{
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    background: blue;
+    margin-top: 20px;
+    font-size: 19px;
+}
+.sub:hover{
+    background: #0063dc;
+}
